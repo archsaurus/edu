@@ -12,12 +12,12 @@ for nuc in primer:
     elif nuc == 'K': rep += 'M'
     
     """
-    match primer[i]:
-        case 'A': primer[i] = 'T'
-        case 'C': primer[i] = 'G'
-        case 'T': primer[i] = 'A'
-        case 'G': primer[i] = 'C'
-        case 'K': primer[i] = 'M'
+    match nuc:
+        case 'A': rep += 'T'
+        case 'C': rep += 'G'
+        case 'T': rep += 'A'
+        case 'G': rep += 'C'
+        case 'K': rep += 'M'
     """
 
 print(primer[::-1], rep, sep='\n')
